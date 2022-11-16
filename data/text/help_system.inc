@@ -14,10 +14,10 @@ Help_Text_TypeMatchupList::
 	.string "Type Matchup List$"
 
 Help_Text_Exit::
-	.string "EXIT$"
+	.string "Exit$"
 
 Help_Text_Cancel::
-	.string "CANCEL$"
+	.string "Cancel$"
 
 Help_Text_TryDoingItOnYourOwn::
 	.string "じぶんの ちからで やってみよう！$"
@@ -39,14 +39,14 @@ Help_Text_DescAboutThisGame::
 	.string "about this game.$"
 
 Help_Text_DescTypeMatchupList::
-	.string "The matchups of  POKéMON types\n"
+	.string "The matchups of  Pokémon types\n"
 	.string "and moves are listed.$"
 
 Help_Text_DescExit::
-	.string "Select to exit the HELP System.$"
+	.string "Select to exit the Help System.$"
 
 Help_Text_Greetings::
-	.string "Greetings! This is the HELP System.\n"
+	.string "Greetings! This is the Help System.\n"
 	.string "Call me up whenever and wherever you\l"
 	.string "need by pressing the L or R Button.\l"
 	.string "The help messages change to suit the\l"
@@ -101,40 +101,40 @@ Help_Text_HowDoIPrepareForBattle::
 	.string "How do I prepare for battle?$"
 
 Help_Text_WhatIsAMonsVitality::
-	.string "What is a POKéMON's vitality?$"
+	.string "What is a Pokémon's vitality?$"
 
 Help_Text_MyMonsAreHurt::
-	.string "My POKéMON are hurt!$"
+	.string "My Pokémon are hurt!$"
 
 Help_Text_WhatIsStatusProblem::
 	.string "What is a status problem?$"
 
 Help_Text_WhatHappensIfAllMyMonsFaint::
-	.string "What happens if all my POKéMON faint?$"
+	.string "What happens if all my Pokémon faint?$"
 
 Help_Text_CantCatchMons::
-	.string "I can't catch POKéMON!$"
+	.string "I can't catch Pokémon!$"
 
 Help_Text_RanOutOfPotions::
-	.string "I ran out of POTIONS.$"
+	.string "I ran out of Potions.$"
 
 Help_Text_CanIBuyPokeBalls::
-	.string "Can I buy POKé BALLS?$"
+	.string "Can I buy Poké Balls?$"
 
 Help_Text_WhatsATrainer::
-	.string "What's a TRAINER?$"
+	.string "What's a Trainer?$"
 
 Help_Text_HowDoIWinAgainstTrainer::
-	.string "How do I win against a TRAINER?$"
+	.string "How do I win against a Trainer?$"
 
 Help_Text_WhereDoMonsAppear::
-	.string "Where do POKéMON appear?$"
+	.string "Where do Pokémon appear?$"
 
 Help_Text_WhatAreMoves::
-	.string "What are POKéMON moves?$"
+	.string "What are Pokémon moves?$"
 
 Help_Text_WhatAreHiddenMoves::
-	.string "What are HIDDEN moves?$"
+	.string "What are Hidden moves?$"
 
 Help_Text_WhatMovesShouldIUse::
 	.string "What moves should I use?$"
@@ -143,10 +143,10 @@ Help_Text_WantToAddMoreMoves::
 	.string "I want to add more moves.$"
 
 Help_Text_WantToMakeMonStronger::
-	.string "I want to make my POKéMON stronger.$"
+	.string "I want to make my Pokémon stronger.$"
 
 Help_Text_FoeMonsTooStrong::
-	.string "The foe POKéMON are too strong!$"
+	.string "The foe Pokémon are too strong!$"
 
 Help_Text_WhatDoIDoInCave::
 	.string "What do I do in a cave?$"
@@ -155,42 +155,42 @@ Help_Text_NothingIWantToKnow::
 	.string "There's nothing that I want to know!$"
 
 Help_Text_WhatsPokemonCenter::
-	.string "What's a POKéMON CENTER?$"
+	.string "What's a Pokémon Center?$"
 
 Help_Text_WhatsPokemonMart::
-	.string "What's a POKéMON MART?$"
+	.string "What's a Pokémon Mart?$"
 
 Help_Text_WantToEndGame::
 	.string "I want to end the game.$"
 
 Help_Text_WhatsAMon::
-	.string "What's a POKéMON?$"
+	.string "What's a Pokémon?$"
 
 Help_Text_WhatIsThatPersonLike::
 	.string "What is that person like?$"
 
 Help_Text_WhatDoesHiddenMoveDo::
-	.string "What does a HIDDEN move do?$"
+	.string "What does a Hidden move do?$"
 
 Help_Text_WhatDoIDoInSafari::
-	.string "What do I do in a SAFARI GAME?$"
+	.string "What do I do in a Safari Game?$"
 
 Help_Text_WhatAreSafariRules::
-	.string "What are the SAFARI GAME rules?$"
+	.string "What are the Safari Game rules?$"
 
 Help_Text_WantToEndSafari::
-	.string "I want to end this SAFARI GAME!$"
+	.string "I want to end this Safari Game!$"
 
 Help_Text_WhatIsAGym::
-	.string "What is a GYM?$"
+	.string "What is a Gym?$"
 
 Help_Text_AnswerPlayingForFirstTime::
 	.string "You become the main character,\n"
-	.string "exploring the world of POKéMON.\l"
+	.string "exploring the world of Pokémon.\l"
 	.string "By talking to people and solving\l"
 	.string "mysteries, new paths will open to you.\l"
 	.string "Strive for the goal together with your\l"
-	.string "wonderful POKéMON.$"
+	.string "wonderful Pokémon.$"
 
 Help_Text_AnswerWhatShouldIBeDoing::
 	.string "When you come across another person,\n"
@@ -246,21 +246,21 @@ Help_Text_AnswerOutOfThingsToDo::
 
 Help_Text_AnswerWhatHappenedToItemIGot::
 	.string "Any item that you are given by another\n"
-	.string "character goes in your BAG.\l"
+	.string "character goes in your Bag.\l"
 	.string "The item is automatically sorted and\l"
 	.string "placed in one of three pockets.\l"
-	.string "For instructions on the BAG's use,\l"
-	.string "please refer to the HELP System's\l"
+	.string "For instructions on the Bag's use,\l"
+	.string "please refer to the Help System's\l"
 	.string "“How do I do this?” heading.$"
 
 Help_Text_AnswerWhatAreMyAdventureBasics::
-	.string "If POKéMON are hurt in battle,\n"
-	.string "take them to a POKéMON CENTER and\l"
+	.string "If Pokémon are hurt in battle,\n"
+	.string "take them to a Pokémon Center and\l"
 	.string "have them healed by the staff.\l"
 	.string "Get in the habit of saving your\l"
 	.string "game and recording your progress.\l"
 	.string "Stock up on healing items at\l"
-	.string "POKéMON MARTS before traveling far.$"
+	.string "Pokémon Marts before traveling far.$"
 
 Help_Text_AnswerHowAreRoadsForestsDifferent::
 	.string "Forests are basically the same as\n"
@@ -270,15 +270,15 @@ Help_Text_AnswerHowAreRoadsForestsDifferent::
 
 Help_Text_AnswerHowAreCavesDifferent::
 	.string "Caves are dark and dangerous. Wild\n"
-	.string "POKéMON can appear anywhere in them.\l"
+	.string "Pokémon can appear anywhere in them.\l"
 	.string "If there is an emergency, rush to a\l"
-	.string "POKéMON CENTER or use items.\l"
+	.string "Pokémon Center or use items.\l"
 	.string "New towns await discovery beyond some\l"
 	.string "caves, so don't give up.$"
 
 Help_Text_AnswerHowDoIProgress::
 	.string "The object of the game is to train\n"
-	.string "your POKéMON and move forward.\l"
+	.string "your Pokémon and move forward.\l"
 	.string "You must collect info and solve\l"
 	.string "problems. For example, what do you\l"
 	.string "need to get around an obstacle?\l"
@@ -294,162 +294,162 @@ Help_Text_AnswerWhenCanIUseItem::
 	.string "you will be alerted.$"
 
 Help_Text_AnswerWhatsABattle::
-	.string "In a battle, POKéMON try to reduce\n"
+	.string "In a battle, Pokémon try to reduce\n"
 	.string "one another's vitality, expressed as\l"
-	.string "HP. If a POKéMON's HP falls to zero,\l"
-	.string "it faints, and the other POKéMON\l"
-	.string "wins. By winning a battle, POKéMON\l"
-	.string "earn EXP. Points, which help them\l"
+	.string "HP. If a Pokémon's HP falls to zero,\l"
+	.string "it faints, and the other Pokémon\l"
+	.string "wins. By winning a battle, Pokémon\l"
+	.string "earn Exp. Points, which help them\l"
 	.string "level up (grow stronger).$"
 
 Help_Text_AnswerHowDoIPrepareForBattle::
-	.string "First, fully heal the POKéMON in your\n"
-	.string "party (the POKéMON with you) at any\l"
-	.string "POKéMON CENTER.\l"
+	.string "First, fully heal the Pokémon in your\n"
+	.string "party (the Pokémon with you) at any\l"
+	.string "Pokémon Center.\l"
 	.string "You should also buy healing items for\l"
-	.string "emergencies at a POKéMON MART.$"
+	.string "emergencies at a Pokémon Mart.$"
 
 Help_Text_AnswerWhatIsAMonsVitality::
-	.string "A POKéMON's vitality is expressed in HP.\n"
-	.string "If a POKéMON is hurt in battle, HP is\l"
+	.string "A Pokémon's vitality is expressed in HP.\n"
+	.string "If a Pokémon is hurt in battle, HP is\l"
 	.string "subtracted. If its HP drops to zero,\l"
-	.string "the POKéMON faints.\l"
-	.string "Heal hurt or fainted POKéMON at a\l"
-	.string "POKéMON CENTER or by using items.$"
+	.string "the Pokémon faints.\l"
+	.string "Heal hurt or fainted Pokémon at a\l"
+	.string "Pokémon Center or by using items.$"
 
 Help_Text_AnswerMyMonsAreHurt::
-	.string "A POKéMON CENTER is like an inn for\n"
-	.string "POKéMON. It will fully heal POKéMON of\l"
+	.string "A Pokémon Center is like an inn for\n"
+	.string "Pokémon. It will fully heal Pokémon of\l"
 	.string "any status problems and fully restore\l"
 	.string "their HP using a special machine.\l"
 	.string "This service is free, so get in the\l"
-	.string "habit of healing your POKéMON often.$"
+	.string "habit of healing your Pokémon often.$"
 
 Help_Text_AnswerWhatIsStatusProblem::
 	.string "A status problem refers to an ailment\n"
-	.string "that is inflicted on a POKéMON by its\l"
+	.string "that is inflicted on a Pokémon by its\l"
 	.string "foe's attack. These include burns,\l"
 	.string "paralysis, poisoning, sleep, and\l"
 	.string "freezing. These can be healed by\l"
-	.string "visiting a POKéMON CENTER or using\l"
+	.string "visiting a Pokémon Center or using\l"
 	.string "the appropriate item.$"
 
 Help_Text_AnswerWhatHappensIfAllMyMonsFaint::
-	.string "If all the POKéMON in your party\n"
-	.string "(all the POKéMON with you) faint, you\l"
-	.string "lose some MONEY, and you are\l"
-	.string "returned home or to a POKéMON\l"
-	.string "CENTER. To reduce that chance, visit\l"
-	.string "POKéMON CENTERS often. Also, get\l"
+	.string "If all the Pokémon in your party\n"
+	.string "(all the Pokémon with you) faint, you\l"
+	.string "lose some Money, and you are\l"
+	.string "returned home or to a Pokémon\l"
+	.string "Center. To reduce that chance, visit\l"
+	.string "Pokémon Centers often. Also, get\l"
 	.string "in the habit of saving often.$"
 
 Help_Text_AnswerCantCatchMons::
-	.string "If a wild POKéMON escapes from a POKé\n"
-	.string "BALL, it's obviously still feisty.\l"
+	.string "If a wild Pokémon escapes from a Poké\n"
+	.string "Ball, it's obviously still feisty.\l"
 	.string "Try reducing its HP some more, and\l"
 	.string "try to weaken it with paralysis or sleep\l"
 	.string "before trying to catch it.\l"
-	.string "If the POKé BALL rocks for a while,\l"
+	.string "If the Poké Ball rocks for a while,\l"
 	.string "the quarry is close to being caught!$"
 
 Help_Text_AnswerRanOutOfPotions::
-	.string "There are shops, known as POKéMON\n"
-	.string "MARTS, that sell items.\l"
-	.string "You will not find POKéMON MARTS on\l"
+	.string "There are shops, known as Pokémon\n"
+	.string "Marts, that sell items.\l"
+	.string "You will not find Pokémon Marts on\l"
 	.string "roads, in forests, or in caves.\l"
 	.string "Stock up on needed items while you are\l"
-	.string "visiting a town with a POKéMON MART.$"
+	.string "visiting a town with a Pokémon Mart.$"
 
 Help_Text_AnswerCanIBuyPokeBalls::
-	.string "You may buy POKé BALLS at any\n"
-	.string "POKéMON MART in any town.\l"
-	.string "You will not find POKéMON MARTS on\l"
+	.string "You may buy Poké Balls at any\n"
+	.string "Pokémon Mart in any town.\l"
+	.string "You will not find Pokémon Marts on\l"
 	.string "roads, in forests, or in caves.\l"
-	.string "Stock up on POKé BALLS while you are\l"
-	.string "visiting a town with a POKéMON MART.$"
+	.string "Stock up on Poké Balls while you are\l"
+	.string "visiting a town with a Pokémon Mart.$"
 
 Help_Text_AnswerWhatsATrainer::
-	.string "A TRAINER is a person who raises\n"
-	.string "POKéMON through battling.\l"
-	.string "TRAINERS will challenge you \l"
+	.string "A Trainer is a person who raises\n"
+	.string "Pokémon through battling.\l"
+	.string "Trainers will challenge you \l"
 	.string "wherever they are - it could be on\l"
 	.string "a road, in forests, caves, anywhere.\l"
 	.string "If your eyes meet, you have to accept\l"
 	.string "their challenge. So be careful!$"
 
 Help_Text_AnswerHowDoIWinAgainstTrainer::
-	.string "To beat a TRAINER in battle, use\n"
-	.string "POKéMON that have type advantages\l"
-	.string "over the foe's POKéMON. You may also\l"
-	.string "use highly trained POKéMON with\l"
+	.string "To beat a Trainer in battle, use\n"
+	.string "Pokémon that have type advantages\l"
+	.string "over the foe's Pokémon. You may also\l"
+	.string "use highly trained Pokémon with\l"
 	.string "overwhelming power. Outnumbering the\l"
-	.string "foe's POKéMON is another obvious\l"
+	.string "foe's Pokémon is another obvious\l"
 	.string "tactic.$"
 
 Help_Text_AnswerWhereDoMonsAppear::
-	.string "Wild POKéMON will appear in tall grass,\n"
+	.string "Wild Pokémon will appear in tall grass,\n"
 	.string "on roads, and in forests. They will\l"
 	.string "appear anywhere in dark caves.\l"
-	.string "There are no wild POKéMON or TRAINERS\l"
+	.string "There are no wild Pokémon or Trainers\l"
 	.string "in towns, so they are safe places.$"
 
 Help_Text_AnswerWhatAreMoves::
-	.string "POKéMON may learn up to four different\n"
+	.string "Pokémon may learn up to four different\n"
 	.string "techniques, or moves. There is a great\l"
 	.string "variety of moves including attacks and\l"
 	.string "those with special effects. The kinds\l"
 	.string "of moves that can be learned vary\l"
-	.string "for each POKéMON. Some moves\l"
+	.string "for each Pokémon. Some moves\l"
 	.string "can be learned from machines.$"
 
 Help_Text_AnswerWhatAreHiddenMoves::
-	.string "HIDDEN moves are those that are\n"
+	.string "Hidden moves are those that are\n"
 	.string "especially important for your\l"
 	.string "adventure. To use such a move outside\l"
-	.string "of battle, open the “POKéMON” MENU\l"
-	.string "and make the POKéMON that knows the\l"
-	.string "move use it. A fainted POKéMON may use\l"
-	.string "a HIDDEN move outside of battle.$"
+	.string "of battle, open the “Pokémon” Menu\l"
+	.string "and make the Pokémon that knows the\l"
+	.string "move use it. A fainted Pokémon may use\l"
+	.string "a Hidden move outside of battle.$"
 
 Help_Text_AnswerWhatMovesShouldIUse::
-	.string "Select “FIGHT,” and the MENU of moves\n"
+	.string "Select “Fight,” and the Menu of moves\n"
 	.string "will appear. Consider the type\l"
 	.string "matchups, and use the most effective\l"
 	.string "moves. You can check the effects of\l"
-	.string "moves by opening “POKéMON,”\l"
-	.string "picking a POKéMON, opening “SUMMARY,”\l"
-	.string "then opening “POKéMON SKILLS.”$"
+	.string "moves by opening “Pokémon,”\l"
+	.string "picking a Pokémon, opening “Summary,”\l"
+	.string "then opening “Pokémon Skills.”$"
 
 Help_Text_AnswerWantToAddMoreMoves::
-	.string "The most a POKéMON can learn is four\n"
+	.string "The most a Pokémon can learn is four\n"
 	.string "moves. They are learned as the\l"
-	.string "POKéMON levels up. It can also be\l"
+	.string "Pokémon levels up. It can also be\l"
 	.string "taught a move using a TM (Technical\l"
 	.string "Machine) or HM (Hidden Machine).\l"
 	.string "There are also people who teach moves.$"
 
 Help_Text_AnswerWantToMakeMonStronger::
-	.string "The key to making your POKéMON\n"
+	.string "The key to making your Pokémon\n"
 	.string "strong is to battle and win often.\l"
-	.string "The EXP. (Experience) Points earned\l"
+	.string "The Exp. (Experience) Points earned\l"
 	.string "by winning battles accumulate to\l"
-	.string "level up POKéMON that participated in\l"
-	.string "them. Battle wild POKéMON often to\l"
+	.string "level up Pokémon that participated in\l"
+	.string "them. Battle wild Pokémon often to\l"
 	.string "level up your party.$"
 
 Help_Text_AnswerFoeMonsTooStrong::
 	.string "If your foes are too strong, try\n"
-	.string "leveling up your POKéMON some more.\l"
+	.string "leveling up your Pokémon some more.\l"
 	.string "Go back the way you came and battle\l"
-	.string "wild POKéMON to level up your party.\l"
-	.string "You may also battle TRAINERS whom you\l"
+	.string "wild Pokémon to level up your party.\l"
+	.string "You may also battle Trainers whom you\l"
 	.string "have not battled before.$"
 
 Help_Text_AnswerWhatDoIDoInCave::
-	.string "Unlike roads and forests, wild POKéMON\n"
+	.string "Unlike roads and forests, wild Pokémon\n"
 	.string "can appear anywhere in caves.\l"
-	.string "If your POKéMON are hurt in a cave,\l"
-	.string "rush to a POKéMON CENTER or use items\l"
+	.string "If your Pokémon are hurt in a cave,\l"
+	.string "rush to a Pokémon Center or use items\l"
 	.string "to heal them right away. It is very\l"
 	.string "dangerous to force your luck in caves.$"
 
@@ -458,93 +458,93 @@ Help_Text_AnswerNothingIWantToKnow::
 	.string "Believe in yourself and find your way!$"
 
 Help_Text_AnswerWhatsPokemonCenter::
-	.string "A POKéMON CENTER is identified by its\n"
+	.string "A Pokémon Center is identified by its\n"
 	.string "red roof and a “P.C” sign. Every\l"
-	.string "POKéMON CENTER offers such services as\l"
-	.string "fully healing POKéMON and free PC use,\l"
+	.string "Pokémon Center offers such services as\l"
+	.string "fully healing Pokémon and free PC use,\l"
 	.string "making it essential for your travels.\l"
 	.string "On the upper floor are facilities for\l"
 	.string "linking with friends and others.$"
 
 Help_Text_AnswerWhatsPokemonMart::
-	.string "A POKéMON MART is identified by its\n"
-	.string "blue roof and a “MART” sign.\l"
+	.string "A Pokémon Mart is identified by its\n"
+	.string "blue roof and a “Mart” sign.\l"
 	.string "Items can be bought and sold at any\l"
-	.string "POKéMON MART. Some MARTS carry items\l"
+	.string "Pokémon Mart. Some Marts carry items\l"
 	.string "that are available only in their towns.$"
 
 Help_Text_AnswerWantToEndGame::
 	.string "You can safely end your game by\n"
-	.string "selecting “SAVE” on the MENU.\l"
+	.string "selecting “Save” on the Menu.\l"
 	.string "Once you have saved, the game can be\l"
 	.string "safely turned off. When the game is\l"
 	.string "turned back on, you can resume from\l"
 	.string "where you last saved.$"
 
 Help_Text_AnswerWhatsAMon::
-	.string "POKéMON are living beings about which\n"
+	.string "Pokémon are living beings about which\n"
 	.string "many mysteries still remain. You may\l"
 	.string "see them in grass, the sea, and caves.\l"
 	.string "They appear to obey the wishes of the\l"
-	.string "TRAINERS that caught them.$"
+	.string "Trainers that caught them.$"
 
 Help_Text_AnswerWhatIsThatPersonLike::
-	.string "Use the FAME CHECKER among the\n"
-	.string "KEY ITEMS in your BAG.\l"
+	.string "Use the Fame Checker among the\n"
+	.string "Key Items in your Beg.\l"
 	.string "It may give you a hint, so try it out.$"
 
 Help_Text_AnswerWhatDoesHiddenMoveDo::
-	.string "A HIDDEN move is taught to a POKéMON\n"
+	.string "A Hidden move is taught to a Pokémon\n"
 	.string "using an HM (Hidden Machine).\l"
-	.string "A HIDDEN move is important for helping\l"
+	.string "A Hidden move is important for helping\l"
 	.string "your adventure. For example, one is\l"
 	.string "used to light up dark caves. Another\l"
 	.string "cuts down small trees. There is one\l"
 	.string "for traveling on water, and so on.$"
 
 Help_Text_AnswerWhatDoIDoInSafari::
-	.string "Try to catch wild POKéMON by throwing\n"
-	.string "the special SAFARI BALLS.\l"
+	.string "Try to catch wild Pokémon by throwing\n"
+	.string "the special Safari Balls.\l"
 	.string "You may keep any item you find, too.$"
 
 Help_Text_AnswerWhatAreSafariRules::
-	.string "Your SAFARI GAME ends once you have\n"
+	.string "Your Safari Game ends once you have\n"
 	.string "traveled a certain distance or thrown\l"
-	.string "all your SAFARI BALLS.\l"
-	.string "Open the MENU to check the remaining\l"
-	.string "number of steps and SAFARI BALLS.$"
+	.string "all your Safari Balls.\l"
+	.string "Open the Menu to check the remaining\l"
+	.string "number of steps and Safari Balls.$"
 
 Help_Text_AnswerWantToEndSafari::
-	.string "If you would like to cut your SAFARI\n"
-	.string "GAME short, open the MENU and select\l"
-	.string "“RETIRE” at the top of the list.$"
+	.string "If you would like to cut your Safari\n"
+	.string "Game short, open the Menu and select\l"
+	.string "“Retire” at the top of the list.$"
 
 Help_Text_AnswerWhatIsAGym::
-	.string "POKéMON GYMS are operated by the\n"
-	.string "POKéMON LEAGUE and are training\l"
-	.string "facilities for TRAINERS. They are all\l"
+	.string "Pokémon Gyms are operated by the\n"
+	.string "Pokémon League and are training\l"
+	.string "facilities for Trainers. They are all\l"
 	.string "across the land in cities and towns.\l"
-	.string "Each one is headed by a LEADER, who\l"
-	.string "is a very skilled TRAINER. Beat the\l"
-	.string "LEADER to collect a BADGE.$"
+	.string "Each one is headed by a Leader, who\l"
+	.string "is a very skilled Trainer. Beat the\l"
+	.string "Leader to collect a Badge.$"
 
 Help_Text_UsingPokedex::
-	.string " Using “POKéDEX”$"
+	.string " Using “Pokédex”$"
 
 Help_Text_UsingPokemon::
-	.string " Using “POKéMON”$"
+	.string " Using “Pokémon”$"
 
 Help_Text_UsingSummary::
-	.string "  Using “SUMMARY”$"
+	.string "  Using “Summary”$"
 
 Help_Text_UsingSwitch::
-	.string "  Using “SWITCH”$"
+	.string "  Using “Switch”$"
 
 Help_Text_UsingItem::
-	.string "  Using “ITEM”$"
+	.string "  Using “Item”$"
 
 Help_Text_UsingBag::
-	.string " Using “BAG”$"
+	.string " Using “Bag”$"
 
 Help_Text_UsingAnItem::
 	.string "  Using an item$"
@@ -553,22 +553,22 @@ Help_Text_UsingKeyItem::
 	.string "  Using a key item$"
 
 Help_Text_UsingPokeBall::
-	.string "  Using a POKé BALL$"
+	.string "  Using a Poké Ball$"
 
 Help_Text_UsingPlayer::
 	.string " Using “{PLAYER}”$"
 
 Help_Text_UsingSave::
-	.string " Using “SAVE”$"
+	.string " Using “Save”$"
 
 Help_Text_UsingOption::
-	.string " Using “OPTION”$"
+	.string " Using “Option”$"
 
 Help_Text_UsingPotion::
-	.string "    Using a POTION$"
+	.string "    Using a Potion$"
 
 Help_Text_UsingTownMap::
-	.string "    Using the TOWN MAP$"
+	.string "    Using the Town Map$"
 
 Help_Text_UsingTM::
 	.string "    Using a TM$"
@@ -580,7 +580,7 @@ Help_Text_UsingMoveOutsideOfBattle::
 	.string "Using a move outside of battle$"
 
 Help_Text_RidingBicycle::
-	.string "    Riding the BICYCLE$"
+	.string "    Riding the Bicycle$"
 
 Help_Text_EnteringName::
 	.string "Entering a name$"
@@ -592,13 +592,13 @@ Help_Text_UsingBillsPC::
 	.string " Using “{STR_VAR_1}'S PC”$"
 
 Help_Text_UsingWithdraw::
-	.string "  Using “WITHDRAW”$"
+	.string "  Using “Withdraw”$"
 
 Help_Text_UsingDeposit::
-	.string "  Using “DEPOSIT”$"
+	.string "  Using “Deposit”$"
 
 Help_Text_UsingMove::
-	.string "  Using “MOVE”$"
+	.string "  Using “Move”$"
 
 Help_Text_MovingItems::
 	.string "  Moving items$"
@@ -607,37 +607,37 @@ Help_Text_UsingPlayersPC::
 	.string " Using “{PLAYER}'s PC”$"
 
 Help_Text_UsingWithdrawItem::
-	.string "  Using “WITHDRAW ITEM”$"
+	.string "  Using “Withdraw Item”$"
 
 Help_Text_UsingDepositItem::
-	.string "  Using “DEPOSIT ITEM”$"
+	.string "  Using “Deposit Item”$"
 
 Help_Text_UsingMailbox::
-	.string "  Using “MAILBOX”$"
+	.string "  Using “Mailbox”$"
 
 Help_Text_UsingProfOaksPC::
-	.string " Using “PROF. OAK'S PC”$"
+	.string " Using “Prof. Oak's PC”$"
 
 Help_Text_OpeningMenu::
-	.string "Opening the MENU$"
+	.string "Opening the Menu$"
 
 Help_Text_UsingFight::
-	.string " Using “FIGHT”$"
+	.string " Using “Fight”$"
 
 Help_Text_UsingPokemon2::
-	.string " Using “POKéMON”$"
+	.string " Using “Pokémon”$"
 
 Help_Text_UsingShift::
-	.string "  Using “SHIFT”$"
+	.string "  Using “Shift”$"
 
 Help_Text_UsingSummary2::
-	.string "  Using “SUMMARY”$"
+	.string "  Using “Summary”$"
 
 Help_Text_UsingBag2::
-	.string " Using “BAG”$"
+	.string " Using “Bag”$"
 
 Help_Text_ReadingPokedex::
-	.string " Reading the “POKéDEX”$"
+	.string " Reading the “Pokédex”$"
 
 Help_Text_UsingHomePC::
 	.string "Using the PC at home$"
@@ -646,129 +646,129 @@ Help_Text_UsingItemStorage::
 	.string "Using the Item Storage System$"
 
 Help_Text_UsingWithdrawItem2::
-	.string "  Using “WITHDRAW ITEM”$"
+	.string "  Using “Withdraw Item”$"
 
 Help_Text_UsingDepositItem2::
-	.string "  Using “DEPOSIT ITEM”$"
+	.string "  Using “Deposit Item”$"
 
 Help_Text_UsingMailbox2::
-	.string "Using the MAILBOX$"
+	.string "Using the Mailbox$"
 
 Help_Text_UsingRun::
-	.string " Using “RUN”$"
+	.string " Using “Run”$"
 
 Help_Text_RegisterKeyItem::
-	.string "  “REGISTER” a key item$"
+	.string "  “Register” a key item$"
 
 Help_Text_UsingBall::
-	.string " Using “BALL”$"
+	.string " Using “Ball”$"
 
 Help_Text_UsingBait::
-	.string " Using “BAIT”$"
+	.string " Using “Bait”$"
 
 Help_Text_UsingRock::
-	.string " Using “ROCK”$"
+	.string " Using “Rock”$"
 
 Help_Text_UsingHallOfFame::
-	.string " Using “HALL OF FAME”$"
+	.string " Using “Hall Of Fame”$"
 
 Help_Text_HowToUsePokedex::
-	.string "{CIRCLE_1} Select “POKéDEX” on the MENU.\n"
-	.string "{CIRCLE_2} Choose POKéMON using commands such\n"
-	.string "   as “POKéMON LIST,”\n"
-	.string "   “HABITATS OF POKéMON,” and\n"
-	.string "   “SEARCH.”\n"
-	.string "{CIRCLE_3} Select a POKéMON to obtain detailed\n"
+	.string "{CIRCLE_1} Select “Pokédex” on the Menu.\n"
+	.string "{CIRCLE_2} Choose Pokémon using commands such\n"
+	.string "   as “Pokémon List,”\n"
+	.string "   “Habitats OF Pokémon,” and\n"
+	.string "   “Search.”\n"
+	.string "{CIRCLE_3} Select a Pokémon to obtain detailed\n"
 	.string "   information.$"
 
 Help_Text_HowToUsePokemon::
-	.string "{CIRCLE_1} Select “POKéMON” on the MENU.\n"
-	.string "{CIRCLE_2} Choose a POKéMON in your party.\n"
-	.string "{CIRCLE_3} Select “SUMMARY,” “SWITCH,”\n"
-	.string "   or “ITEM.”$"
+	.string "{CIRCLE_1} Select “Pokémon” on the Menu.\n"
+	.string "{CIRCLE_2} Choose a Pokémon in your party.\n"
+	.string "{CIRCLE_3} Select “Summary,” “Switch,”\n"
+	.string "   or “Item.”$"
 
 Help_Text_HowToUseSummary::
-	.string "{CIRCLE_1} Select “SUMMARY.”\n"
+	.string "{CIRCLE_1} Select “Summary.”\n"
 	.string "{CIRCLE_2} Press left or right on the {PLUS} Control\n"
 	.string "   Pad to check the information:\n"
-	.string "   “POKéMON INFO”\n"
-	.string "   “POKéMON SKILLS”\n"
-	.string "   “KNOWN MOVES”$"
+	.string "   “Pokémon Info”\n"
+	.string "   “Pokémon Skills”\n"
+	.string "   “Known Moves”$"
 
 Help_Text_HowToUseSwitch::
-	.string "{CIRCLE_1} Choose the POKéMON you want to\n"
+	.string "{CIRCLE_1} Choose the Pokémon you want to\n"
 	.string "   switch around.\n"
-	.string "{CIRCLE_2} Select “SWITCH.”\n"
-	.string "{CIRCLE_3} Select the POKéMON to switch with\n"
+	.string "{CIRCLE_2} Select “Switch.”\n"
+	.string "{CIRCLE_3} Select the Pokémon to switch with\n"
 	.string "   the first one.\n"
-	.string "The POKéMON at the left of the screen\n"
+	.string "The Pokémon at the left of the screen\n"
 	.string "will be the first one out in a battle.$"
 
 Help_Text_HowToUseItem::
-	.string "{CIRCLE_1} Select “ITEM.”\n"
-	.string "{CIRCLE_2} Select whether you want to “GIVE”\n"
-	.string "   an item to the POKéMON to hold,\n"
-	.string "   or “TAKE” an item it is holding.\n"
-	.string "A POKéMON can hold no more than one\n"
+	.string "{CIRCLE_1} Select “Item.”\n"
+	.string "{CIRCLE_2} Select whether you want to “Give”\n"
+	.string "   an item to the Pokémon to hold,\n"
+	.string "   or “Take” an item it is holding.\n"
+	.string "A Pokémon can hold no more than one\n"
 	.string "item!$"
 
 Help_Text_HowToUseBag::
-	.string "{CIRCLE_1} Select “BAG” on the MENU.\n"
+	.string "{CIRCLE_1} Select “Bag” on the Menu.\n"
 	.string "{CIRCLE_2} Press left or right on the {PLUS} Control\n"
 	.string "   Pad to check the data headings:\n"
-	.string "   “ITEMS”\n"
-	.string "   “KEY ITEMS”\n"
-	.string "   “POKé BALLS”\n"
+	.string "   “Items”\n"
+	.string "   “Key Items”\n"
+	.string "   “Poké Balls”\n"
 	.string "   Press up or down to select an item.$"
 
 Help_Text_HowToUseAnItem::
-	.string "{CIRCLE_1} Select the “ITEMS” POCKET.\n"
+	.string "{CIRCLE_1} Select the “Items” Pocket.\n"
 	.string "{CIRCLE_2} Press up or down on the {PLUS} Control\n"
 	.string "   Pad to select an item.\n"
-	.string "{CIRCLE_3} Select “USE” to use the selected\n"
+	.string "{CIRCLE_3} Select “Use” to use the selected\n"
 	.string "   item.\n"
 	.string "Some items may not be used depending\n"
 	.string "on the place and/or situation.$"
 
 Help_Text_HowToUseKeyItem::
-	.string "{CIRCLE_1} Select the “KEY ITEMS” POCKET.\n"
+	.string "{CIRCLE_1} Select the “Key Items” Pocket.\n"
 	.string "{CIRCLE_2} Press up or down on the {PLUS} Control\n"
 	.string "   Pad to select a key item.\n"
-	.string "{CIRCLE_3} Select “USE” to use the selected\n"
+	.string "{CIRCLE_3} Select “Use” to use the selected\n"
 	.string "   key item.$"
 
 Help_Text_HowToUsePokeBall::
-	.string "{CIRCLE_1} While battling a wild POKéMON,\n"
-	.string "   select the BAG's “POKé BALLS”\n"
+	.string "{CIRCLE_1} While battling a wild Pokémon,\n"
+	.string "   select the Bag's “Poké Balls”\n"
 	.string "   POCKET.\n"
 	.string "{CIRCLE_2} Press up or down on the {PLUS} Control\n"
-	.string "   Pad to select a POKé BALL.\n"
-	.string "{CIRCLE_3} Select “USE” to throw the selected\n"
-	.string "   POKé BALL.$"
+	.string "   Pad to select a Poké BallL.\n"
+	.string "{CIRCLE_3} Select “Use” to throw the selected\n"
+	.string "   Poké Ball.$"
 
 Help_Text_HowToUsePlayer::
-	.string "{CIRCLE_1} Select “{PLAYER}” on the MENU.\n"
-	.string "{CIRCLE_2} Your TRAINER CARD is displayed face\n"
+	.string "{CIRCLE_1} Select “{PLAYER}” on the Menu.\n"
+	.string "{CIRCLE_2} Your Trainer Card is displayed face\n"
 	.string "   up with basic information. Press the\n"
-	.string "   A Button to turn the CARD over.\n"
+	.string "   A Button to turn the Card over.\n"
 	.string "{CIRCLE_3} A variety of data can be found on\n"
-	.string "   the reverse side of the CARD.$"
+	.string "   the reverse side of the Card.$"
 
 Help_Text_HowToUseSave::
-	.string "{CIRCLE_1} Select “SAVE” on the MENU.\n"
-	.string "{CIRCLE_2} Select “YES” and your progress is\n"
+	.string "{CIRCLE_1} Select “Save” on the Menu.\n"
+	.string "{CIRCLE_2} Select “Yes” and your progress is\n"
 	.string "   recorded in the save file.\n"
 	.string "Once the game is saved, you may turn\n"
 	.string "off the game. Your game can be resumed\n"
 	.string "from where you saved.$"
 
 Help_Text_HowToUseOption::
-	.string "{CIRCLE_1} Select “OPTION” on the MENU.\n"
+	.string "{CIRCLE_1} Select “Option” on the Menu.\n"
 	.string "{CIRCLE_2} Press up or down on the {PLUS} Control\n"
 	.string "   Pad to select an optional item, then\n"
 	.string "   press left or right to alter the\n"
 	.string "   settings.\n"
-	.string "{CIRCLE_3} Select “CANCEL” or press the\n"
+	.string "{CIRCLE_3} Select “Cancel” or press the\n"
 	.string "   B Button after making changes.$"
 
 Help_Text_HowToUsePotion::

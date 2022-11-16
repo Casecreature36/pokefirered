@@ -1,4 +1,4 @@
-VermilionCity_PokemonCenter_2F_MapScripts::
+VermilionCity_PokemonCenter_2F_MapScripts:: @ 816B457
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, CableClub_OnFrame
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, CableClub_OnWarp
 	map_script MAP_SCRIPT_ON_LOAD, CableClub_OnLoad
@@ -6,14 +6,14 @@ VermilionCity_PokemonCenter_2F_MapScripts::
 	.byte 0
 
 @ The below 3 are unused and leftover from RS
-VermilionCity_PokemonCenter_2F_EventScript_Colosseum::
+VermilionCity_PokemonCenter_2F_EventScript_Colosseum:: @ 816B46C
 	call CableClub_EventScript_Colosseum
 	end
 
-VermilionCity_PokemonCenter_2F_EventScript_TradeCenter::
+VermilionCity_PokemonCenter_2F_EventScript_TradeCenter:: @ 816B472
 	call CableClub_EventScript_TradeCenter
 	end
 
-VermilionCity_PokemonCenter_2F_EventScript_RecordCorner::
+VermilionCity_PokemonCenter_2F_EventScript_RecordCorner:: @ 816B478
 	call CableClub_EventScript_RecordCorner
 	end

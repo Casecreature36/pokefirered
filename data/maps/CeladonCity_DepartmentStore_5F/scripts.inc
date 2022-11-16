@@ -1,19 +1,19 @@
-CeladonCity_DepartmentStore_5F_MapScripts::
+CeladonCity_DepartmentStore_5F_MapScripts:: @ 816BC40
 	.byte 0
 
-CeladonCity_DepartmentStore_5F_EventScript_Gentleman::
+CeladonCity_DepartmentStore_5F_EventScript_Gentleman:: @ 816BC41
 	msgbox CeladonCity_DepartmentStore_5F_Text_ExplainStatEnhancers, MSGBOX_NPC
 	end
 
-CeladonCity_DepartmentStore_5F_EventScript_Sailor::
+CeladonCity_DepartmentStore_5F_EventScript_Sailor:: @ 816BC4A
 	msgbox CeladonCity_DepartmentStore_5F_Text_HereForStatEnhancers, MSGBOX_NPC
 	end
 
-CeladonCity_DepartmentStore_5F_EventScript_FloorSign::
+CeladonCity_DepartmentStore_5F_EventScript_FloorSign:: @ 816BC53
 	msgbox CeladonCity_DepartmentStore_5F_Text_Drugstore, MSGBOX_SIGN
 	end
 
-CeladonCity_DepartmentStore_5F_EventScript_ClerkXItems::
+CeladonCity_DepartmentStore_5F_EventScript_ClerkXItems:: @ 816BC5C
 	goto_if_questlog EventScript_ReleaseEnd
 	lock
 	faceplayer
@@ -25,7 +25,7 @@ CeladonCity_DepartmentStore_5F_EventScript_ClerkXItems::
 	end
 
 	.align 2
-CeladonCity_DepartmentStore_5F_XItems::
+CeladonCity_DepartmentStore_5F_XItems:: @ 816BC84
 	.2byte ITEM_X_ATTACK
 	.2byte ITEM_X_DEFEND
 	.2byte ITEM_X_SPEED
@@ -37,7 +37,7 @@ CeladonCity_DepartmentStore_5F_XItems::
 	release
 	end
 
-CeladonCity_DepartmentStore_5F_EventScript_ClerkVitamins::
+CeladonCity_DepartmentStore_5F_EventScript_ClerkVitamins:: @ 816BC96
 	goto_if_questlog EventScript_ReleaseEnd
 	lock
 	faceplayer
@@ -49,7 +49,7 @@ CeladonCity_DepartmentStore_5F_EventScript_ClerkVitamins::
 	end
 
 	.align 2
-CeladonCity_DepartmentStore_5F_Vitamins::
+CeladonCity_DepartmentStore_5F_Vitamins:: @ 816BCBC
 	.2byte ITEM_HP_UP
 	.2byte ITEM_PROTEIN
 	.2byte ITEM_IRON

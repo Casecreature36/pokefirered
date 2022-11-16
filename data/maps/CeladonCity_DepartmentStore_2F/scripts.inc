@@ -1,19 +1,19 @@
-CeladonCity_DepartmentStore_2F_MapScripts::
+CeladonCity_DepartmentStore_2F_MapScripts:: @ 816BAF4
 	.byte 0
 
-CeladonCity_DepartmentStore_2F_EventScript_UnusedNPC::
+CeladonCity_DepartmentStore_2F_EventScript_UnusedNPC:: @ 816BAF5
 	msgbox CeladonCity_DepartmentStore_2F_Text_SuperRepelMorePowerfulRepel, MSGBOX_NPC
 	end
 
-CeladonCity_DepartmentStore_2F_EventScript_Lass::
+CeladonCity_DepartmentStore_2F_EventScript_Lass:: @ 816BAFE
 	msgbox CeladonCity_DepartmentStore_2F_Text_BuyReviveForLongOutings, MSGBOX_NPC
 	end
 
-CeladonCity_DepartmentStore_2F_EventScript_FloorSign::
+CeladonCity_DepartmentStore_2F_EventScript_FloorSign:: @ 816BB07
 	msgbox CeladonCity_DepartmentStore_2F_Text_FloorSign, MSGBOX_SIGN
 	end
 
-CeladonCity_DepartmentStore_2F_EventScript_ClerkItems::
+CeladonCity_DepartmentStore_2F_EventScript_ClerkItems:: @ 816BB10
 	goto_if_questlog EventScript_ReleaseEnd
 	lock
 	faceplayer
@@ -25,7 +25,7 @@ CeladonCity_DepartmentStore_2F_EventScript_ClerkItems::
 	end
 
 	.align 2
-CeladonCity_DepartmentStore_2F_Items::
+CeladonCity_DepartmentStore_2F_Items:: @ 816BB38
 	.2byte ITEM_GREAT_BALL
 	.2byte ITEM_SUPER_POTION
 	.2byte ITEM_REVIVE
@@ -39,7 +39,7 @@ CeladonCity_DepartmentStore_2F_Items::
 	release
 	end
 
-CeladonCity_DepartmentStore_2F_EventScript_ClerkTMs::
+CeladonCity_DepartmentStore_2F_EventScript_ClerkTMs:: @ 816BB4E
 	goto_if_questlog EventScript_ReleaseEnd
 	lock
 	faceplayer
@@ -51,7 +51,7 @@ CeladonCity_DepartmentStore_2F_EventScript_ClerkTMs::
 	end
 
 	.align 2
-CeladonCity_DepartmentStore_2F_TMs::
+CeladonCity_DepartmentStore_2F_TMs:: @ 816BB74
 	.2byte ITEM_TM05
 	.2byte ITEM_TM15
 	.2byte ITEM_TM28

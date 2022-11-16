@@ -1,7 +1,7 @@
-TwoIsland_Harbor_MapScripts::
+TwoIsland_Harbor_MapScripts:: @ 8171805
 	.byte 0
 
-TwoIsland_Harbor_EventScript_Sailor::
+TwoIsland_Harbor_EventScript_Sailor:: @ 8171806
 	lock
 	faceplayer
 	message Text_WhereDoYouWantToSail

@@ -16,7 +16,6 @@
   "connections": null,
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MR_FUJI",
       "x": 3,
       "y": 3,
@@ -30,7 +29,6 @@
       "flag": "FLAG_HIDE_POKEHOUSE_FUJI"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_NIDORINO",
       "x": 1,
       "y": 4,
@@ -44,7 +42,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PSYDUCK",
       "x": 9,
       "y": 6,
@@ -58,7 +55,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_LITTLE_BOY",
       "x": 9,
       "y": 5,
@@ -72,7 +68,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
       "x": 3,
       "y": 5,
@@ -86,7 +81,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_LITTLE_GIRL",
       "x": 7,
       "y": 2,
@@ -106,21 +100,21 @@
       "y": 7,
       "elevation": 3,
       "dest_map": "MAP_LAVENDER_TOWN",
-      "dest_warp_id": "2"
+      "dest_warp_id": 2
     },
     {
       "x": 4,
       "y": 7,
       "elevation": 3,
       "dest_map": "MAP_LAVENDER_TOWN",
-      "dest_warp_id": "2"
+      "dest_warp_id": 2
     },
     {
       "x": 5,
       "y": 7,
       "elevation": 3,
       "dest_map": "MAP_LAVENDER_TOWN",
-      "dest_warp_id": "2"
+      "dest_warp_id": 2
     }
   ],
   "coord_events": [],

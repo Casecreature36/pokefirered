@@ -1,21 +1,22 @@
 .equ LOCALID_RIVAL,    1
 .equ LOCALID_PROF_OAK, 2
 
-IndigoPlateau_Exterior_MapScripts::
+IndigoPlateau_Exterior_MapScripts:: @ 816723B
 	map_script MAP_SCRIPT_ON_TRANSITION, IndigoPlateau_Exterior_OnTransition
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, IndigoPlateau_Exterior_OnFrame
 	.byte 0
 
-IndigoPlateau_Exterior_OnTransition::
+IndigoPlateau_Exterior_OnTransition:: @ 8167246
 	setworldmapflag FLAG_WORLD_MAP_INDIGO_PLATEAU_EXTERIOR
-	call_if_eq VAR_MAP_SCENE_INDIGO_PLATEAU_EXTERIOR, 1, IndigoPlateau_Exterior_EventScript_PlayCreditsMusic
+	compare VAR_MAP_SCENE_INDIGO_PLATEAU_EXTERIOR, 1
+	call_if_eq IndigoPlateau_Exterior_EventScript_PlayCreditsMusic
 	end
 
-IndigoPlateau_Exterior_EventScript_PlayCreditsMusic::
+IndigoPlateau_Exterior_EventScript_PlayCreditsMusic:: @ 8167255
 	playbgm MUS_CREDITS, 0
 	return
 
-IndigoPlateau_Exterior_OnFrame::
+IndigoPlateau_Exterior_OnFrame:: @ 816725A
 	map_script_2 VAR_MAP_SCENE_INDIGO_PLATEAU_EXTERIOR, 1, IndigoPlateau_Exterior_EventScript_Credits
 	.2byte 0
 
@@ -24,7 +25,7 @@ IndigoPlateau_Exterior_OnFrame::
 @ entrance of Indigo Plateau. This script starts running
 @ immediately after your walking animation.
 @ The script is timed to the music.
-IndigoPlateau_Exterior_EventScript_Credits::
+IndigoPlateau_Exterior_EventScript_Credits:: @ 8167264
 	lockall
 	delay 105
 
@@ -85,7 +86,7 @@ IndigoPlateau_Exterior_EventScript_Credits::
 	releaseall
 	end
 
-IndigoPlateau_Exterior_Movement_PlayerLeave::
+IndigoPlateau_Exterior_Movement_PlayerLeave:: @ 8167311
 	player_run_down
 	player_run_down
 	player_run_down
@@ -95,20 +96,20 @@ IndigoPlateau_Exterior_Movement_PlayerLeave::
 	step_end
 
 @ Unused
-IndigoPlateau_Exterior_Movement_PlayerExitBuilding::
+IndigoPlateau_Exterior_Movement_PlayerExitBuilding:: @ 8167318
 	walk_down
 	walk_down
 	step_end
 
-IndigoPlateau_Exterior_Movement_PlayerWatchRivalLeave::
+IndigoPlateau_Exterior_Movement_PlayerWatchRivalLeave:: @ 816731B
 	delay_16
 	delay_4
-	walk_in_place_faster_down
+	walk_in_place_fastest_down
 	step_end
 
-IndigoPlateau_Exterior_Movement_PlayerWatchOakLeave::
+IndigoPlateau_Exterior_Movement_PlayerWatchOakLeave:: @ 816731F
 	delay_8
-	walk_in_place_faster_right
+	walk_in_place_fastest_right
 	delay_16
 	delay_16
 	delay_16
@@ -120,10 +121,10 @@ IndigoPlateau_Exterior_Movement_PlayerWatchOakLeave::
 	delay_16
 	delay_16
 	delay_16
-	walk_in_place_faster_down
+	walk_in_place_fastest_down
 	step_end
 
-IndigoPlateau_Exterior_Movement_PlayerBeginLeave::
+IndigoPlateau_Exterior_Movement_PlayerBeginLeave:: @ 816732E
 	walk_right
 	delay_16
 	walk_down
@@ -132,37 +133,37 @@ IndigoPlateau_Exterior_Movement_PlayerBeginLeave::
 	delay_16
 	step_end
 
-IndigoPlateau_Exterior_Movement_PlayerTurnAround::
-	walk_in_place_faster_down
+IndigoPlateau_Exterior_Movement_PlayerTurnAround:: @ 8167335
+	walk_in_place_fastest_down
 	step_end
 
-IndigoPlateau_Exterior_Movement_PushPlayerOutOfWay::
+IndigoPlateau_Exterior_Movement_PushPlayerOutOfWay:: @ 8167337
 	face_right
 	lock_facing_direction
 	walk_left
 	unlock_facing_direction
 	step_end
 
-IndigoPlateau_Exterior_Movement_PlayerFaceLeague::
-	walk_in_place_faster_up
+IndigoPlateau_Exterior_Movement_PlayerFaceLeague:: @ 816733C
+	walk_in_place_fastest_up
 	step_end
 
-IndigoPlateau_Exterior_Movement_RivalLeave::
+IndigoPlateau_Exterior_Movement_RivalLeave:: @ 816733E
 	walk_fast_down
 	walk_fast_down
 	walk_fast_down
 	walk_fast_down
 	walk_fast_down
 	walk_fast_down
-	walk_fast_down
-	step_end
-
-IndigoPlateau_Exterior_Movement_RivalExitBuilding::
 	walk_fast_down
 	step_end
 
-IndigoPlateau_Exterior_Movement_OakLeave::
-	walk_in_place_faster_left
+IndigoPlateau_Exterior_Movement_RivalExitBuilding:: @ 8167346
+	walk_fast_down
+	step_end
+
+IndigoPlateau_Exterior_Movement_OakLeave:: @ 8167348
+	walk_in_place_fastest_left
 	delay_16
 	delay_16
 	delay_16
@@ -173,7 +174,7 @@ IndigoPlateau_Exterior_Movement_OakLeave::
 	delay_16
 	delay_16
 	delay_16
-	walk_in_place_faster_down
+	walk_in_place_fastest_down
 	delay_16
 	walk_down
 	walk_down
@@ -184,6 +185,6 @@ IndigoPlateau_Exterior_Movement_OakLeave::
 	walk_down
 	step_end
 
-IndigoPlateau_Exterior_Movement_OakExitBuilding::
+IndigoPlateau_Exterior_Movement_OakExitBuilding:: @ 816735D
 	walk_down
 	step_end

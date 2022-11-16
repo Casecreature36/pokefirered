@@ -27,7 +27,6 @@
   ],
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
       "x": 3,
       "y": 16,
@@ -41,7 +40,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CAMPER",
       "x": 12,
       "y": 21,
@@ -55,7 +53,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
       "x": 13,
       "y": 21,
@@ -69,7 +66,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
       "x": 20,
       "y": 25,
@@ -83,7 +79,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
       "x": 13,
       "y": 32,
@@ -97,7 +92,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CAMPER",
       "x": 13,
       "y": 33,
@@ -117,21 +111,21 @@
       "y": 13,
       "elevation": 0,
       "dest_map": "MAP_UNDERGROUND_PATH_SOUTH_ENTRANCE",
-      "dest_warp_id": "1"
+      "dest_warp_id": 1
     },
     {
       "x": 12,
       "y": 5,
       "elevation": 3,
       "dest_map": "MAP_ROUTE6_NORTH_ENTRANCE",
-      "dest_warp_id": "2"
+      "dest_warp_id": 2
     },
     {
       "x": 13,
       "y": 5,
       "elevation": 3,
       "dest_map": "MAP_ROUTE6_NORTH_ENTRANCE",
-      "dest_warp_id": "2"
+      "dest_warp_id": 2
     }
   ],
   "coord_events": [],
@@ -150,7 +144,7 @@
       "y": 5,
       "elevation": 3,
       "item": "ITEM_SITRUS_BERRY",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE6_SITRUS_BERRY",
+      "flag": "HIDDEN_ITEM_ROUTE6_SITRUS_BERRY",
       "quantity": 1,
       "underfoot": false
     },
@@ -160,7 +154,7 @@
       "y": 5,
       "elevation": 3,
       "item": "ITEM_RARE_CANDY",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE6_RARE_CANDY",
+      "flag": "HIDDEN_ITEM_ROUTE6_RARE_CANDY",
       "quantity": 1,
       "underfoot": false
     }

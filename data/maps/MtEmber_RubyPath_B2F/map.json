@@ -16,7 +16,6 @@
   "connections": null,
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
       "x": 9,
       "y": 3,
@@ -30,7 +29,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
       "x": 12,
       "y": 5,
@@ -44,7 +42,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
       "x": 12,
       "y": 2,
@@ -58,7 +55,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
       "x": 4,
       "y": 8,
@@ -72,7 +68,6 @@
       "flag": "FLAG_TEMP_12"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
       "x": 1,
       "y": 8,
@@ -86,7 +81,6 @@
       "flag": "FLAG_TEMP_13"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
       "x": 4,
       "y": 5,
@@ -100,7 +94,6 @@
       "flag": "FLAG_TEMP_14"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
       "x": 5,
       "y": 5,
@@ -120,14 +113,14 @@
       "y": 7,
       "elevation": 3,
       "dest_map": "MAP_MT_EMBER_RUBY_PATH_B1F",
-      "dest_warp_id": "1"
+      "dest_warp_id": 1
     },
     {
       "x": 13,
       "y": 9,
       "elevation": 3,
       "dest_map": "MAP_MT_EMBER_RUBY_PATH_B3F",
-      "dest_warp_id": "0"
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [],

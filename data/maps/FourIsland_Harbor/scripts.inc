@@ -1,7 +1,7 @@
-FourIsland_Harbor_MapScripts::
+FourIsland_Harbor_MapScripts:: @ 8171C98
 	.byte 0
 
-FourIsland_Harbor_EventScript_Sailor::
+FourIsland_Harbor_EventScript_Sailor:: @ 8171C99
 	lock
 	faceplayer
 	message Text_WhereDoYouWantToSail

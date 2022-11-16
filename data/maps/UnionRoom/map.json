@@ -16,7 +16,6 @@
   "connections": null,
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_UNION_ROOM_RECEPTIONIST",
       "x": 3,
       "y": 2,
@@ -30,7 +29,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_VAR_3",
       "x": 1,
       "y": 8,
@@ -44,7 +42,6 @@
       "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_4"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_VAR_7",
       "x": 7,
       "y": 8,
@@ -58,7 +55,6 @@
       "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_8"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_VAR_6",
       "x": 1,
       "y": 4,
@@ -72,7 +68,6 @@
       "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_7"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_VAR_5",
       "x": 7,
       "y": 4,
@@ -86,7 +81,6 @@
       "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_6"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_VAR_4",
       "x": 13,
       "y": 4,
@@ -100,7 +94,6 @@
       "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_5"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_VAR_2",
       "x": 10,
       "y": 6,
@@ -114,7 +107,6 @@
       "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_3"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_VAR_1",
       "x": 13,
       "y": 8,
@@ -128,7 +120,6 @@
       "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_2"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_VAR_0",
       "x": 4,
       "y": 6,
@@ -147,8 +138,8 @@
       "x": 7,
       "y": 11,
       "elevation": 3,
-      "dest_map": "MAP_DYNAMIC",
-      "dest_warp_id": "WARP_ID_DYNAMIC"
+      "dest_map": "MAP_NONE",
+      "dest_warp_id": 127
     }
   ],
   "coord_events": [],

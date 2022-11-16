@@ -16,7 +16,6 @@
   "connections": null,
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST",
       "x": 3,
       "y": 11,
@@ -30,7 +29,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WORKER_F",
       "x": 2,
       "y": 10,
@@ -44,7 +42,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST",
       "x": 11,
       "y": 10,
@@ -58,7 +55,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PROF_OAK",
       "x": 6,
       "y": 3,
@@ -72,7 +68,6 @@
       "flag": "FLAG_HIDE_OAK_IN_HIS_LAB"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 8,
       "y": 4,
@@ -86,7 +81,6 @@
       "flag": "FLAG_HIDE_BULBASAUR_BALL"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 9,
       "y": 4,
@@ -100,7 +94,6 @@
       "flag": "FLAG_HIDE_SQUIRTLE_BALL"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 10,
       "y": 4,
@@ -114,7 +107,6 @@
       "flag": "FLAG_HIDE_CHARMANDER_BALL"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BLUE",
       "x": 5,
       "y": 4,
@@ -128,7 +120,6 @@
       "flag": "FLAG_HIDE_RIVAL_IN_LAB"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_POKEDEX",
       "x": 4,
       "y": 1,
@@ -142,7 +133,6 @@
       "flag": "FLAG_HIDE_POKEDEX"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_POKEDEX",
       "x": 5,
       "y": 1,
@@ -162,21 +152,21 @@
       "y": 12,
       "elevation": 3,
       "dest_map": "MAP_PALLET_TOWN",
-      "dest_warp_id": "2"
+      "dest_warp_id": 2
     },
     {
       "x": 7,
       "y": 12,
       "elevation": 3,
       "dest_map": "MAP_PALLET_TOWN",
-      "dest_warp_id": "2"
+      "dest_warp_id": 2
     },
     {
       "x": 5,
       "y": 12,
       "elevation": 3,
       "dest_map": "MAP_PALLET_TOWN",
-      "dest_warp_id": "2"
+      "dest_warp_id": 2
     }
   ],
   "coord_events": [

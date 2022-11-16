@@ -1,16 +1,17 @@
-SSAnne_1F_Room4_MapScripts::
+SSAnne_1F_Room4_MapScripts:: @ 8160C43
 	.byte 0
 
-SSAnne_1F_Room4_EventScript_Woman::
+SSAnne_1F_Room4_EventScript_Woman:: @ 8160C44
 	lock
 	faceplayer
 	checkplayergender
-	goto_if_eq VAR_RESULT, MALE, SSAnne_1F_Room4_EventScript_WomanPlayerMale
+	compare VAR_RESULT, MALE
+	goto_if_eq SSAnne_1F_Room4_EventScript_WomanPlayerMale
 	msgbox SSAnne_1F_Room4_Text_WaitressCherryPiePlease
 	release
 	end
 
-SSAnne_1F_Room4_EventScript_WomanPlayerMale::
+SSAnne_1F_Room4_EventScript_WomanPlayerMale:: @ 8160C5C
 	msgbox SSAnne_1F_Room4_Text_WaiterCherryPiePlease
 	release
 	end

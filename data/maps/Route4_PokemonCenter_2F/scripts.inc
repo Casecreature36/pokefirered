@@ -1,4 +1,4 @@
-Route4_PokemonCenter_2F_MapScripts::
+Route4_PokemonCenter_2F_MapScripts:: @ 816F8D8
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, CableClub_OnFrame
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, CableClub_OnWarp
 	map_script MAP_SCRIPT_ON_LOAD, CableClub_OnLoad
@@ -6,14 +6,14 @@ Route4_PokemonCenter_2F_MapScripts::
 	.byte 0
 
 @ The below 3 are unused and leftover from RS
-Route4_PokemonCenter_2F_EventScript_Colosseum::
+Route4_PokemonCenter_2F_EventScript_Colosseum:: @ 816F8ED
 	call CableClub_EventScript_Colosseum
 	end
 
-Route4_PokemonCenter_2F_EventScript_TradeCenter::
+Route4_PokemonCenter_2F_EventScript_TradeCenter:: @ 816F8F3
 	call CableClub_EventScript_TradeCenter
 	end
 
-Route4_PokemonCenter_2F_EventScript_RecordCorner::
+Route4_PokemonCenter_2F_EventScript_RecordCorner:: @ 816F8F9
 	call CableClub_EventScript_RecordCorner
 	end

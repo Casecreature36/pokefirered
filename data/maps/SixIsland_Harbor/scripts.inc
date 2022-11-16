@@ -1,7 +1,7 @@
-SixIsland_Harbor_MapScripts::
+SixIsland_Harbor_MapScripts:: @ 8171E47
 	.byte 0
 
-SixIsland_Harbor_EventScript_Sailor::
+SixIsland_Harbor_EventScript_Sailor:: @ 8171E48
 	lock
 	faceplayer
 	message Text_WhereDoYouWantToSail

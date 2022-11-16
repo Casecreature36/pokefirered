@@ -16,7 +16,6 @@
   "connections": null,
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CHANNELER",
       "x": 11,
       "y": 4,
@@ -30,7 +29,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CHANNELER",
       "x": 19,
       "y": 7,
@@ -44,7 +42,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CHANNELER",
       "x": 7,
       "y": 12,
@@ -58,7 +55,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CHANNELER",
       "x": 11,
       "y": 16,
@@ -72,7 +68,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CHANNELER",
       "x": 12,
       "y": 8,
@@ -86,7 +81,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 6,
       "y": 16,
@@ -100,7 +94,6 @@
       "flag": "FLAG_HIDE_POKEMON_TOWER_5F_NUGGET"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 11,
       "y": 9,
@@ -120,14 +113,14 @@
       "y": 10,
       "elevation": 3,
       "dest_map": "MAP_POKEMON_TOWER_4F",
-      "dest_warp_id": "0"
+      "dest_warp_id": 0
     },
     {
       "x": 18,
       "y": 10,
       "elevation": 3,
       "dest_map": "MAP_POKEMON_TOWER_6F",
-      "dest_warp_id": "1"
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [
@@ -292,7 +285,7 @@
       "y": 3,
       "elevation": 3,
       "item": "ITEM_BIG_MUSHROOM",
-      "flag": "FLAG_HIDDEN_ITEM_POKEMON_TOWER_5F_BIG_MUSHROOM",
+      "flag": "HIDDEN_ITEM_POKEMON_TOWER_5F_BIG_MUSHROOM",
       "quantity": 1,
       "underfoot": false
     }

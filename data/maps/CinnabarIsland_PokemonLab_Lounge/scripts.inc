@@ -1,45 +1,48 @@
-CinnabarIsland_PokemonLab_Lounge_MapScripts::
+CinnabarIsland_PokemonLab_Lounge_MapScripts:: @ 816E2B8
 	.byte 0
 
-CinnabarIsland_PokemonLab_Lounge_EventScript_Scientist::
+CinnabarIsland_PokemonLab_Lounge_EventScript_Scientist:: @ 816E2B9
 	msgbox CinnabarIsland_PokemonLab_Lounge_Text_FoundFossilInMtMoon, MSGBOX_NPC
 	end
 
-CinnabarIsland_PokemonLab_Lounge_EventScript_Clifton::
+CinnabarIsland_PokemonLab_Lounge_EventScript_Clifton:: @ 816E2C2
 	lock
 	faceplayer
 	setvar VAR_0x8008, INGAME_TRADE_ELECTRODE
 	call EventScript_GetInGameTradeSpeciesInfo
 	goto_if_set FLAG_DID_ESPHERE_TRADE, CinnabarIsland_PokemonLab_Lounge_EventScript_CliftonAlreadyTraded
 	msgbox Trade_Text_DoYouHaveMonWouldYouTradeForMon, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, CinnabarIsland_PokemonLab_Lounge_EventScript_CliftonDeclineTrade
+	compare VAR_RESULT, NO
+	goto_if_eq CinnabarIsland_PokemonLab_Lounge_EventScript_CliftonDeclineTrade
 	call EventScript_ChooseMonForInGameTrade
-	goto_if_ge VAR_0x8004, PARTY_SIZE, CinnabarIsland_PokemonLab_Lounge_EventScript_CliftonDeclineTrade
+	compare VAR_0x8004, PARTY_SIZE
+	goto_if_ge CinnabarIsland_PokemonLab_Lounge_EventScript_CliftonDeclineTrade
 	call EventScript_GetInGameTradeSpecies
-	goto_if_ne VAR_RESULT, VAR_0x8009, CinnabarIsland_PokemonLab_Lounge_EventScript_CliftonNotRequestedMon
+	compare VAR_RESULT, VAR_0x8009
+	goto_if_ne CinnabarIsland_PokemonLab_Lounge_EventScript_CliftonNotRequestedMon
 	call EventScript_DoInGameTrade
 	msgbox Trade_Text_Thanks
 	setflag FLAG_DID_ESPHERE_TRADE
 	release
 	end
 
-CinnabarIsland_PokemonLab_Lounge_EventScript_CliftonDeclineTrade::
+CinnabarIsland_PokemonLab_Lounge_EventScript_CliftonDeclineTrade:: @ 816E31C
 	msgbox Trade_Text_WellIfYouDontWantTo
 	release
 	end
 
-CinnabarIsland_PokemonLab_Lounge_EventScript_CliftonNotRequestedMon::
-	bufferspeciesname STR_VAR_1, VAR_0x8009
+CinnabarIsland_PokemonLab_Lounge_EventScript_CliftonNotRequestedMon:: @ 816E326
+	getspeciesname 0, VAR_0x8009
 	msgbox Trade_Text_ThisIsntMon
 	release
 	end
 
-CinnabarIsland_PokemonLab_Lounge_EventScript_CliftonAlreadyTraded::
+CinnabarIsland_PokemonLab_Lounge_EventScript_CliftonAlreadyTraded:: @ 816E334
 	msgbox Trade_Text_HasTradedMonGrownStronger
 	release
 	end
 
-CinnabarIsland_PokemonLab_Lounge_EventScript_Norma::
+CinnabarIsland_PokemonLab_Lounge_EventScript_Norma:: @ 816E33E
 	lock
 	faceplayer
 	setvar VAR_0x8008, INGAME_TRADE_TANGELA
@@ -48,15 +51,18 @@ CinnabarIsland_PokemonLab_Lounge_EventScript_Norma::
 	copyvar VAR_0x8009, VAR_RESULT
 	goto_if_set FLAG_DID_TANGENY_TRADE, CinnabarIsland_PokemonLab_Lounge_EventScript_NormaAlreadyTraded
 	msgbox Trade_Text_DoYouHaveMonWantToTradeForMon, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, CinnabarIsland_PokemonLab_Lounge_EventScript_NormaDeclineTrade
+	compare VAR_RESULT, NO
+	goto_if_eq CinnabarIsland_PokemonLab_Lounge_EventScript_NormaDeclineTrade
 	special ChoosePartyMon
 	waitstate
 	copyvar VAR_0x800A, VAR_0x8004
-	goto_if_ge VAR_0x8004, PARTY_SIZE, CinnabarIsland_PokemonLab_Lounge_EventScript_NormaDeclineTrade
+	compare VAR_0x8004, PARTY_SIZE
+	goto_if_ge CinnabarIsland_PokemonLab_Lounge_EventScript_NormaDeclineTrade
 	copyvar VAR_0x8005, VAR_0x800A
 	specialvar VAR_RESULT, GetTradeSpecies
 	copyvar VAR_0x800B, VAR_RESULT
-	goto_if_ne VAR_RESULT, VAR_0x8009, CinnabarIsland_PokemonLab_Lounge_EventScript_NormaNotRequestedMon
+	compare VAR_RESULT, VAR_0x8009
+	goto_if_ne CinnabarIsland_PokemonLab_Lounge_EventScript_NormaNotRequestedMon
 	copyvar VAR_0x8004, VAR_0x8008
 	copyvar VAR_0x8005, VAR_0x800A
 	special CreateInGameTradePokemon
@@ -67,18 +73,18 @@ CinnabarIsland_PokemonLab_Lounge_EventScript_Norma::
 	release
 	end
 
-CinnabarIsland_PokemonLab_Lounge_EventScript_NormaDeclineTrade::
+CinnabarIsland_PokemonLab_Lounge_EventScript_NormaDeclineTrade:: @ 816E3BC
 	msgbox Trade_Text_ThatsTooBad
 	release
 	end
 
-CinnabarIsland_PokemonLab_Lounge_EventScript_NormaNotRequestedMon::
-	bufferspeciesname STR_VAR_1, VAR_0x8009
+CinnabarIsland_PokemonLab_Lounge_EventScript_NormaNotRequestedMon:: @ 816E3C6
+	getspeciesname 0, VAR_0x8009
 	msgbox Trade_Text_ThisIsNoMon
 	release
 	end
 
-CinnabarIsland_PokemonLab_Lounge_EventScript_NormaAlreadyTraded::
+CinnabarIsland_PokemonLab_Lounge_EventScript_NormaAlreadyTraded:: @ 816E3D4
 	msgbox Trade_Text_HowIsMyOldMon
 	release
 	end

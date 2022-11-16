@@ -16,7 +16,6 @@
   "connections": null,
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_HIKER",
       "x": 29,
       "y": 45,
@@ -30,7 +29,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 41,
       "y": 40,
@@ -44,7 +42,6 @@
       "flag": "FLAG_HIDE_MT_EMBER_EXTERIOR_ROCKETS"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 42,
       "y": 40,
@@ -58,7 +55,6 @@
       "flag": "FLAG_HIDE_MT_EMBER_EXTERIOR_ROCKETS"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BATTLE_GIRL",
       "x": 22,
       "y": 35,
@@ -72,7 +68,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CAMPER",
       "x": 15,
       "y": 28,
@@ -86,7 +81,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
       "x": 14,
       "y": 42,
@@ -100,7 +94,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
       "x": 29,
       "y": 41,
@@ -114,7 +107,6 @@
       "flag": "FLAG_TEMP_12"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
       "x": 30,
       "y": 42,
@@ -128,7 +120,6 @@
       "flag": "FLAG_TEMP_13"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
       "x": 22,
       "y": 45,
@@ -142,7 +133,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
       "x": 17,
       "y": 46,
@@ -156,7 +146,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
       "x": 36,
       "y": 14,
@@ -170,7 +159,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
       "x": 34,
       "y": 14,
@@ -184,7 +172,6 @@
       "flag": "FLAG_TEMP_14"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
       "x": 36,
       "y": 15,
@@ -198,7 +185,6 @@
       "flag": "FLAG_TEMP_15"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
       "x": 35,
       "y": 14,
@@ -212,7 +198,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
       "x": 35,
       "y": 17,
@@ -226,7 +211,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
       "x": 18,
       "y": 39,
@@ -240,7 +224,6 @@
       "flag": "FLAG_TEMP_16"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCK_SMASH_ROCK",
       "x": 19,
       "y": 40,
@@ -254,7 +237,6 @@
       "flag": "FLAG_TEMP_17"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 13,
       "y": 6,
@@ -268,7 +250,6 @@
       "flag": "FLAG_HIDE_MT_EMBER_EXTERIOR_ULTRA_BALL"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 38,
       "y": 10,
@@ -282,7 +263,6 @@
       "flag": "FLAG_HIDE_MT_EMBER_EXTERIOR_FIRE_STONE"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 48,
       "y": 20,
@@ -302,42 +282,42 @@
       "y": 48,
       "elevation": 3,
       "dest_map": "MAP_ONE_ISLAND_KINDLE_ROAD",
-      "dest_warp_id": "0"
+      "dest_warp_id": 0
     },
     {
       "x": 29,
       "y": 48,
       "elevation": 3,
       "dest_map": "MAP_ONE_ISLAND_KINDLE_ROAD",
-      "dest_warp_id": "1"
+      "dest_warp_id": 1
     },
     {
       "x": 14,
       "y": 24,
       "elevation": 3,
       "dest_map": "MAP_MT_EMBER_SUMMIT_PATH_1F",
-      "dest_warp_id": "0"
+      "dest_warp_id": 0
     },
     {
       "x": 39,
       "y": 19,
       "elevation": 3,
       "dest_map": "MAP_MT_EMBER_SUMMIT_PATH_3F",
-      "dest_warp_id": "1"
+      "dest_warp_id": 1
     },
     {
       "x": 29,
       "y": 7,
       "elevation": 3,
       "dest_map": "MAP_MT_EMBER_SUMMIT",
-      "dest_warp_id": "0"
+      "dest_warp_id": 0
     },
     {
       "x": 42,
       "y": 39,
       "elevation": 0,
       "dest_map": "MAP_MT_EMBER_RUBY_PATH_1F",
-      "dest_warp_id": "0"
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [
@@ -376,7 +356,7 @@
       "y": 17,
       "elevation": 0,
       "item": "ITEM_FIRE_STONE",
-      "flag": "FLAG_HIDDEN_ITEM_MT_EMBER_EXTERIOR_FIRE_STONE",
+      "flag": "HIDDEN_ITEM_MT_EMBER_EXTERIOR_FIRE_STONE",
       "quantity": 1,
       "underfoot": false
     },
@@ -386,7 +366,7 @@
       "y": 30,
       "elevation": 3,
       "item": "ITEM_ULTRA_BALL",
-      "flag": "FLAG_HIDDEN_ITEM_MT_EMBER_EXTERIOR_ULTRA_BALL",
+      "flag": "HIDDEN_ITEM_MT_EMBER_EXTERIOR_ULTRA_BALL",
       "quantity": 1,
       "underfoot": false
     }

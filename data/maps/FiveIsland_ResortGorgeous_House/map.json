@@ -16,7 +16,6 @@
   "connections": null,
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
       "x": 4,
       "y": 4,
@@ -30,7 +29,6 @@
       "flag": "FLAG_HIDE_RESORT_GORGEOUS_INSIDE_SELPHY"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
       "x": 6,
       "y": 2,
@@ -50,7 +48,7 @@
       "y": 7,
       "elevation": 3,
       "dest_map": "MAP_FIVE_ISLAND_RESORT_GORGEOUS",
-      "dest_warp_id": "1"
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [],

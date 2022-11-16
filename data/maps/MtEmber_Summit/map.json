@@ -16,7 +16,6 @@
   "connections": null,
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MOLTRES",
       "x": 9,
       "y": 6,
@@ -30,7 +29,6 @@
       "flag": "FLAG_HIDE_MOLTRES"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
       "x": 10,
       "y": 12,
@@ -44,7 +42,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
       "x": 9,
       "y": 12,
@@ -58,7 +55,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
       "x": 8,
       "y": 11,
@@ -72,7 +68,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
       "x": 8,
       "y": 10,
@@ -92,7 +87,7 @@
       "y": 15,
       "elevation": 0,
       "dest_map": "MAP_MT_EMBER_EXTERIOR",
-      "dest_warp_id": "4"
+      "dest_warp_id": 4
     }
   ],
   "coord_events": [],

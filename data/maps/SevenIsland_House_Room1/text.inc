@@ -1,27 +1,27 @@
-SevenIsland_House_Room1_Text_OnlyEnjoymentWatchingBattles::
+SevenIsland_House_Room1_Text_OnlyEnjoymentWatchingBattles:: @ 81A049B
     .string "I may not look like much now,\n"
     .string "but when I was younger…\p"
     .string "I flew everywhere, challenging\n"
-    .string "TRAINERS wherever I found them.\p"
+    .string "Trainers wherever I found them.\p"
     .string "Now, my only source of enjoyment\n"
     .string "is reminiscing about the past while\l"
     .string "watching battles.$"
 
-SevenIsland_House_Room1_Text_SlightBreezeAroundBox::
+SevenIsland_House_Room1_Text_SlightBreezeAroundBox:: @ 81A0567
     .string "There is a slight breeze blowing\n"
     .string "around the box.$"
 
-SevenIsland_House_Room1_Text_ChallengeVisitingTrainer::
+SevenIsland_House_Room1_Text_ChallengeVisitingTrainer:: @ 81A0598
     .string "Ah!\n"
     .string "Welcome, my friend!\p"
     .string "Let me tell you something. There's\n"
     .string "a hidden room in the basement.\p"
-    .string "A TRAINER named {STR_VAR_1} is\n"
+    .string "A Trainer named {STR_VAR_1} is\n"
     .string "waiting there now.\p"
     .string "Tell me, you did come to challenge\n"
     .string "{STR_VAR_1}, am I right?$"
 
-SevenIsland_House_Room1_Text_OhYouWontBattle::
+SevenIsland_House_Room1_Text_OhYouWontBattle:: @ 81A064E
     .string "Oh…\n"
     .string "You won't battle…\p"
     .string "I see, I see.\n"
@@ -29,7 +29,7 @@ SevenIsland_House_Room1_Text_OhYouWontBattle::
     .string "Well, perhaps if you change your\n"
     .string "mind, do come back.$"
 
-SevenIsland_House_Room1_Text_LimitThreeMonsPerSide::
+SevenIsland_House_Room1_Text_LimitThreeMonsPerSide:: @ 81A06AB
     .string "Ah!\n"
     .string "You will battle for me?\p"
     .string "It was worth my time moving the\n"
@@ -39,24 +39,24 @@ SevenIsland_House_Room1_Text_LimitThreeMonsPerSide::
     .string "This hidden room is not built very\n"
     .string "sturdy.\p"
     .string "Can I get you to limit it to\n"
-    .string "battles of three POKéMON per side?$"
+    .string "battles of three Pokémon per side?$"
 
-SevenIsland_House_Room1_Text_SaveProgressBeforeBattle::
+SevenIsland_House_Room1_Text_SaveProgressBeforeBattle:: @ 81A0788
     .string "Fine! Before your battle, would\n"
     .string "you like to save your game?$"
 
-SevenIsland_House_Room1_Text_DontHoldAnythingBack::
+SevenIsland_House_Room1_Text_DontHoldAnythingBack:: @ 81A07C4
     .string "All right.\n"
     .string "Don't hold anything back!$"
 
 @ Unused
-SevenIsland_House_Room1_Text_StrVar1_1::
+SevenIsland_House_Room1_Text_StrVar1_1:: @ 81A07E9
     .string "{STR_VAR_1}$"
 
-SevenIsland_House_Room2_Text_MatchEndedUpDraw::
+SevenIsland_House_Room2_Text_MatchEndedUpDraw:: @ 81A07EC
     .string "The match ended up a draw.$"
 
-SevenIsland_House_Room1_Text_DrawWasIt::
+SevenIsland_House_Room1_Text_DrawWasIt:: @ 81A0807
     .string "A draw, was it?\p"
     .string "However, let me say that it was\n"
     .string "a worthy spectacle.\p"
@@ -64,10 +64,10 @@ SevenIsland_House_Room1_Text_DrawWasIt::
     .string "with a real sense of depth!$"
 
 @ Unused
-SevenIsland_House_Room1_Text_StrVar1_2::
+SevenIsland_House_Room1_Text_StrVar1_2:: @ 81A0889
     .string "{STR_VAR_1}$"
 
-SevenIsland_House_Room1_Text_AstoundingBattle::
+SevenIsland_House_Room1_Text_AstoundingBattle:: @ 81A088C
     .string "Bravo!\p"
     .string "Bravo, indeed!\n"
     .string "What an astounding battle!\p"
@@ -80,10 +80,10 @@ SevenIsland_House_Room1_Text_AstoundingBattle::
     .string "It was sheer magnificence!$"
 
 @ Unused
-SevenIsland_House_Room1_Text_StrVar1_3::
+SevenIsland_House_Room1_Text_StrVar1_3:: @ 81A096E
     .string "{STR_VAR_1}$"
 
-SevenIsland_House_Room1_Text_FeelYourDisappointment::
+SevenIsland_House_Room1_Text_FeelYourDisappointment:: @ 81A0971
     .string "Too bad!\n"
     .string "I feel your disappointment.\p"
     .string "However, that disappointment is\n"

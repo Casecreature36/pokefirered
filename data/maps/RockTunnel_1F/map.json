@@ -16,7 +16,6 @@
   "connections": null,
   "object_events": [
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
       "x": 26,
       "y": 28,
@@ -30,7 +29,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
       "x": 39,
       "y": 27,
@@ -44,7 +42,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
       "x": 45,
       "y": 24,
@@ -58,7 +55,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_HIKER",
       "x": 20,
       "y": 17,
@@ -72,7 +68,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_HIKER",
       "x": 5,
       "y": 20,
@@ -86,7 +81,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_HIKER",
       "x": 7,
       "y": 5,
@@ -100,7 +94,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_SUPER_NERD",
       "x": 27,
       "y": 10,
@@ -114,7 +107,6 @@
       "flag": "0"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 37,
       "y": 5,
@@ -128,7 +120,6 @@
       "flag": "FLAG_HIDE_ROCK_TUNNEL_1F_REPEL"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 33,
       "y": 22,
@@ -142,7 +133,6 @@
       "flag": "FLAG_HIDE_ROCK_TUNNEL_1F_PEARL"
     },
     {
-      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 22,
       "y": 22,
@@ -162,42 +152,42 @@
       "y": 2,
       "elevation": 3,
       "dest_map": "MAP_ROUTE10",
-      "dest_warp_id": "0"
+      "dest_warp_id": 0
     },
     {
       "x": 45,
       "y": 2,
       "elevation": 3,
       "dest_map": "MAP_ROCK_TUNNEL_B1F",
-      "dest_warp_id": "0"
+      "dest_warp_id": 0
     },
     {
       "x": 4,
       "y": 2,
       "elevation": 3,
       "dest_map": "MAP_ROCK_TUNNEL_B1F",
-      "dest_warp_id": "1"
+      "dest_warp_id": 1
     },
     {
       "x": 20,
       "y": 13,
       "elevation": 3,
       "dest_map": "MAP_ROCK_TUNNEL_B1F",
-      "dest_warp_id": "2"
+      "dest_warp_id": 2
     },
     {
       "x": 45,
       "y": 21,
       "elevation": 3,
       "dest_map": "MAP_ROCK_TUNNEL_B1F",
-      "dest_warp_id": "3"
+      "dest_warp_id": 3
     },
     {
       "x": 18,
       "y": 37,
       "elevation": 3,
       "dest_map": "MAP_ROUTE10",
-      "dest_warp_id": "1"
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [],

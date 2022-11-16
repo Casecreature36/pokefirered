@@ -1,54 +1,57 @@
 .equ LOCALID_RIVAL,    1
 .equ LOCALID_PROF_OAK, 2
 
-PokemonLeague_ChampionsRoom_MapScripts::
+PokemonLeague_ChampionsRoom_MapScripts:: @ 8162AE2
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, PokemonLeague_ChampionsRoom_OnWarp
 	map_script MAP_SCRIPT_ON_RESUME, PokemonLeague_ChampionsRoom_OnResume
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, PokemonLeague_ChampionsRoom_OnFrame
 	.byte 0
 
-PokemonLeague_ChampionsRoom_OnResume::
+PokemonLeague_ChampionsRoom_OnResume:: @ 8162AF2
 	setvar VAR_0x8004, 4
 	call PokemonLeague_EventScript_DoLightingEffect
-	call_if_eq VAR_STARTER_MON, 2, PokemonLeague_ChampionsRoom_EventScript_CheckStopTriggerSquirtle
-	call_if_eq VAR_STARTER_MON, 1, PokemonLeague_ChampionsRoom_EventScript_CheckStopTriggerBulbasaur
-	call_if_eq VAR_STARTER_MON, 0, PokemonLeague_ChampionsRoom_EventScript_CheckStopTriggerCharmander
+	compare VAR_STARTER_MON, 2
+	call_if_eq PokemonLeague_ChampionsRoom_EventScript_CheckStopTriggerSquirtle
+	compare VAR_STARTER_MON, 1
+	call_if_eq PokemonLeague_ChampionsRoom_EventScript_CheckStopTriggerBulbasaur
+	compare VAR_STARTER_MON, 0
+	call_if_eq PokemonLeague_ChampionsRoom_EventScript_CheckStopTriggerCharmander
 	end
 
-PokemonLeague_ChampionsRoom_EventScript_CheckStopTriggerSquirtle::
+PokemonLeague_ChampionsRoom_EventScript_CheckStopTriggerSquirtle:: @ 8162B1E
 	goto_if_defeated TRAINER_CHAMPION_FIRST_SQUIRTLE, PokemonLeague_ChampionsRoom_EventScript_StopSceneTrigger
 	goto_if_defeated TRAINER_CHAMPION_REMATCH_SQUIRTLE, PokemonLeague_ChampionsRoom_EventScript_StopSceneTrigger
 	return
 
-PokemonLeague_ChampionsRoom_EventScript_CheckStopTriggerBulbasaur::
+PokemonLeague_ChampionsRoom_EventScript_CheckStopTriggerBulbasaur:: @ 8162B31
 	goto_if_defeated TRAINER_CHAMPION_FIRST_BULBASAUR, PokemonLeague_ChampionsRoom_EventScript_StopSceneTrigger
 	goto_if_defeated TRAINER_CHAMPION_REMATCH_BULBASAUR, PokemonLeague_ChampionsRoom_EventScript_StopSceneTrigger
 	return
 
-PokemonLeague_ChampionsRoom_EventScript_CheckStopTriggerCharmander::
+PokemonLeague_ChampionsRoom_EventScript_CheckStopTriggerCharmander:: @ 8162B44
 	goto_if_defeated TRAINER_CHAMPION_FIRST_CHARMANDER, PokemonLeague_ChampionsRoom_EventScript_StopSceneTrigger
 	goto_if_defeated TRAINER_CHAMPION_REMATCH_CHARMANDER, PokemonLeague_ChampionsRoom_EventScript_StopSceneTrigger
 	return
 
-PokemonLeague_ChampionsRoom_EventScript_StopSceneTrigger::
+PokemonLeague_ChampionsRoom_EventScript_StopSceneTrigger:: @ 8162B57
 	setvar VAR_TEMP_1, 1
 	return
 
-PokemonLeague_ChampionsRoom_OnWarp::
+PokemonLeague_ChampionsRoom_OnWarp:: @ 8162B5D
 	map_script_2 VAR_TEMP_1, 0, PokemonLeague_ChampionsRoom_EventScript_TurnPlayerNorth
 	.2byte 0
 
-PokemonLeague_ChampionsRoom_EventScript_TurnPlayerNorth::
+PokemonLeague_ChampionsRoom_EventScript_TurnPlayerNorth:: @ 8162B67
 	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
 	end
 
-PokemonLeague_ChampionsRoom_OnFrame::
+PokemonLeague_ChampionsRoom_OnFrame:: @ 8162B6C
 	map_script_2 VAR_TEMP_1, 0, PokemonLeague_ChampionsRoom_EventScript_EnterRoom
 	.2byte 0
 
-PokemonLeague_ChampionsRoom_EventScript_EnterRoom::
+PokemonLeague_ChampionsRoom_EventScript_EnterRoom:: @ 8162B76
 	lockall
-	textcolor NPC_TEXT_COLOR_MALE
+	textcolor 0
 	setflag FLAG_TEMP_2
 	applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_ChampionsRoom_Movement_PlayerEnter
 	waitmovement 0
@@ -76,14 +79,14 @@ PokemonLeague_ChampionsRoom_EventScript_EnterRoom::
 	waitmovement 0
 	delay 25
 	specialvar VAR_RESULT, GetStarterSpecies
-	bufferspeciesname STR_VAR_1, VAR_RESULT
+	getspeciesname 0, VAR_RESULT
 	msgbox PokemonLeague_ChampionsRoom_Text_OakCongratulations
-	applymovement LOCALID_PROF_OAK, Common_Movement_WalkInPlaceFasterRight
-	applymovement LOCALID_RIVAL, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_PROF_OAK, Movement_WalkInPlaceFastestRight
+	applymovement LOCALID_RIVAL, Movement_WalkInPlaceFastestLeft
 	waitmovement 0
 	msgbox PokemonLeague_ChampionsRoom_Text_OakImDisappointedRival
 	closemessage
-	applymovement LOCALID_PROF_OAK, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_PROF_OAK, Movement_WalkInPlaceFastestDown
 	waitmovement 0
 	delay 20
 	msgbox PokemonLeague_ChampionsRoom_Text_OakPlayerComeWithMe
@@ -93,61 +96,67 @@ PokemonLeague_ChampionsRoom_EventScript_EnterRoom::
 	applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_ChampionsRoom_Movement_PlayerExit
 	waitmovement 0
 	setvar VAR_TEMP_1, 1
-	warp MAP_POKEMON_LEAGUE_HALL_OF_FAME, 5, 12
+	warp MAP_POKEMON_LEAGUE_HALL_OF_FAME, 255, 5, 12
 	waitstate
 	releaseall
 	end
 
-PokemonLeague_ChampionsRoom_EventScript_QuestLogEnd::
+PokemonLeague_ChampionsRoom_EventScript_QuestLogEnd:: @ 8162C68
 	call PokemonLeague_ChampionsRoom_EventScript_StopSceneTrigger
 	releaseall
 	end
 
-PokemonLeague_ChampionsRoom_EventScript_Battle::
-	call_if_eq VAR_STARTER_MON, 2, PokemonLeague_ChampionsRoom_EventScript_BattleSquirtle
-	call_if_eq VAR_STARTER_MON, 1, PokemonLeague_ChampionsRoom_EventScript_BattleBulbasaur
-	call_if_eq VAR_STARTER_MON, 0, PokemonLeague_ChampionsRoom_EventScript_BattleCharmander
+PokemonLeague_ChampionsRoom_EventScript_Battle:: @ 8162C6F
+	compare VAR_STARTER_MON, 2
+	call_if_eq PokemonLeague_ChampionsRoom_EventScript_BattleSquirtle
+	compare VAR_STARTER_MON, 1
+	call_if_eq PokemonLeague_ChampionsRoom_EventScript_BattleBulbasaur
+	compare VAR_STARTER_MON, 0
+	call_if_eq PokemonLeague_ChampionsRoom_EventScript_BattleCharmander
 	return
 
-PokemonLeague_ChampionsRoom_EventScript_Rematch::
-	call_if_eq VAR_STARTER_MON, 2, PokemonLeague_ChampionsRoom_EventScript_RematchSquirtle
-	call_if_eq VAR_STARTER_MON, 1, PokemonLeague_ChampionsRoom_EventScript_RematchBulbasaur
-	call_if_eq VAR_STARTER_MON, 0, PokemonLeague_ChampionsRoom_EventScript_RematchCharmander
+PokemonLeague_ChampionsRoom_EventScript_Rematch:: @ 8162C91
+	compare VAR_STARTER_MON, 2
+	call_if_eq PokemonLeague_ChampionsRoom_EventScript_RematchSquirtle
+	compare VAR_STARTER_MON, 1
+	call_if_eq PokemonLeague_ChampionsRoom_EventScript_RematchBulbasaur
+	compare VAR_STARTER_MON, 0
+	call_if_eq PokemonLeague_ChampionsRoom_EventScript_RematchCharmander
 	return
 
-PokemonLeague_ChampionsRoom_EventScript_Intro::
+PokemonLeague_ChampionsRoom_EventScript_Intro:: @ 8162CB3
 	msgbox PokemonLeague_ChampionsRoom_Text_Intro
 	return
 
-PokemonLeague_ChampionsRoom_EventScript_RematchIntro::
+PokemonLeague_ChampionsRoom_EventScript_RematchIntro:: @ 8162CBC
 	msgbox PokemonLeague_ChampionsRoom_Text_RematchIntro
 	return
 
-PokemonLeague_ChampionsRoom_EventScript_BattleSquirtle::
+PokemonLeague_ChampionsRoom_EventScript_BattleSquirtle:: @ 8162CC5
 	trainerbattle_no_intro TRAINER_CHAMPION_FIRST_SQUIRTLE, PokemonLeague_ChampionsRoom_Text_Defeat
 	return
 
-PokemonLeague_ChampionsRoom_EventScript_BattleBulbasaur::
+PokemonLeague_ChampionsRoom_EventScript_BattleBulbasaur:: @ 8162CD0
 	trainerbattle_no_intro TRAINER_CHAMPION_FIRST_BULBASAUR, PokemonLeague_ChampionsRoom_Text_Defeat
 	return
 
-PokemonLeague_ChampionsRoom_EventScript_BattleCharmander::
+PokemonLeague_ChampionsRoom_EventScript_BattleCharmander:: @ 8162CDB
 	trainerbattle_no_intro TRAINER_CHAMPION_FIRST_CHARMANDER, PokemonLeague_ChampionsRoom_Text_Defeat
 	return
 
-PokemonLeague_ChampionsRoom_EventScript_RematchSquirtle::
+PokemonLeague_ChampionsRoom_EventScript_RematchSquirtle:: @ 8162CE6
 	trainerbattle_no_intro TRAINER_CHAMPION_REMATCH_SQUIRTLE, PokemonLeague_ChampionsRoom_Text_Defeat
 	return
 
-PokemonLeague_ChampionsRoom_EventScript_RematchBulbasaur::
+PokemonLeague_ChampionsRoom_EventScript_RematchBulbasaur:: @ 8162CF1
 	trainerbattle_no_intro TRAINER_CHAMPION_REMATCH_BULBASAUR, PokemonLeague_ChampionsRoom_Text_Defeat
 	return
 
-PokemonLeague_ChampionsRoom_EventScript_RematchCharmander::
+PokemonLeague_ChampionsRoom_EventScript_RematchCharmander:: @ 8162CFC
 	trainerbattle_no_intro TRAINER_CHAMPION_REMATCH_CHARMANDER, PokemonLeague_ChampionsRoom_Text_Defeat
 	return
 
-PokemonLeague_ChampionsRoom_Movement_PlayerEnter::
+PokemonLeague_ChampionsRoom_Movement_PlayerEnter:: @ 8162D07
 	walk_up
 	walk_up
 	walk_up
@@ -160,7 +169,7 @@ PokemonLeague_ChampionsRoom_Movement_PlayerEnter::
 	walk_up
 	step_end
 
-PokemonLeague_ChampionsRoom_Movement_PlayerExit::
+PokemonLeague_ChampionsRoom_Movement_PlayerExit:: @ 8162D12
 	delay_16
 	walk_left
 	walk_up
@@ -175,9 +184,9 @@ PokemonLeague_ChampionsRoom_Movement_PlayerExit::
 	set_invisible
 	step_end
 
-PokemonLeague_ChampionsRoom_Movement_PlayerWatchOakEnter::
+PokemonLeague_ChampionsRoom_Movement_PlayerWatchOakEnter:: @ 8162D1F
 	delay_8
-	walk_in_place_faster_down
+	walk_in_place_fastest_down
 	delay_16
 	delay_16
 	delay_16
@@ -185,10 +194,10 @@ PokemonLeague_ChampionsRoom_Movement_PlayerWatchOakEnter::
 	delay_16
 	delay_16
 	delay_16
-	walk_in_place_faster_left
+	walk_in_place_fastest_left
 	step_end
 
-PokemonLeague_ChampionsRoom_Movement_OakEnter::
+PokemonLeague_ChampionsRoom_Movement_OakEnter:: @ 8162D2A
 	delay_16
 	delay_16
 	walk_up
@@ -199,11 +208,11 @@ PokemonLeague_ChampionsRoom_Movement_OakEnter::
 	walk_left
 	walk_up
 	walk_up
-	walk_in_place_faster_down
+	walk_in_place_fastest_down
 	delay_16
 	step_end
 
-PokemonLeague_ChampionsRoom_Movement_OakExit::
+PokemonLeague_ChampionsRoom_Movement_OakExit:: @ 8162D37
 	walk_up
 	walk_up
 	walk_right
@@ -215,7 +224,7 @@ PokemonLeague_ChampionsRoom_Movement_OakExit::
 	set_invisible
 	step_end
 
-PokemonLeague_ChampionsRoom_Movement_RivalWatchOakEnter::
+PokemonLeague_ChampionsRoom_Movement_RivalWatchOakEnter:: @ 8162D41
 	delay_16
 	delay_16
 	delay_16
@@ -225,5 +234,5 @@ PokemonLeague_ChampionsRoom_Movement_RivalWatchOakEnter::
 	delay_16
 	delay_16
 	delay_16
-	walk_in_place_faster_left
+	walk_in_place_fastest_left
 	step_end
